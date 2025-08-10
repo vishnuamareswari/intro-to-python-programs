@@ -9,11 +9,11 @@ def multiply_numbers(num_a, num_b):
 
 # And let's use it:
 
-print("multiply_numbers(2, 3) is:")
-print(multiply_numbers(2, 3))
+print("multiply_numbers(2, 2) is:")
+print(multiply_numbers(2, 2))
 
-print("multiply_numbers(3, 5) is:")
-print(multiply_numbers(3, 5))
+print("multiply_numbers(5, 5) is:")
+print(multiply_numbers(5, 5))
 
 # @TASK: Run these in the terminal using:
 

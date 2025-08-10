@@ -26,16 +26,16 @@ def just_return_it(num):
 
 # We call a function like this:
 
-just_return_it(4)
-# Returns 4
+just_return_it(5)
+# Returns 5
 
 # In the code above, the argument `4` goes into the `just_return_it` function
 # and takes the place of `num` in the function body.
 
 # Want to see? Here, we can use `print` to show you:
 
-print("just_return_it(4) returns:")
-print(just_return_it(4))
+print("just_return_it(5) returns:")
+print(just_return_it(5))
 
 # @TASK: Run this program in the bottom terminal panel:
 #
