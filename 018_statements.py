@@ -13,7 +13,7 @@ added = 2 + 3
 #
 # What's the state of a program? Let's take a look at an example.
 
-my_favourite_number = 99
+my_favourite_number = 9
 
 print(f"My favourite number is: {my_favourite_number}")
 print("---")
@@ -32,7 +32,7 @@ print("---")
 # Look at this program:
 
 todays_day = 19
-todays_day = 20
+todays_day = 2
 
 print(f"Today's day is: {todays_day}")
 print("---")

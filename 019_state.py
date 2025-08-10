@@ -7,6 +7,7 @@ b = 20
 a = b
 print(f"a is {a}")
 print(f"b is {b}")
+print(f"a+b is{a+b}")
 
 # @TASK: What does that output? And why? Take a guess, then run the code and
 # see.

@@ -17,24 +17,24 @@ from lib.helpers import check_that_these_are_equal
 # Take this string:
 
 note = "The Most Perfect Crab"
-print(note)
+#print(note)
 
 # We can access the first character like this:
 
-print(note[0])
+#print(note[0])
 # In programming, we count from zero — 'T' is the zeroth character.
 
 # And the last character like this:
 
-print(note[-1])
+#print(note[-1])
 
 # And any in the middle like this:
 
-print(note[6])
+#print(note[6])
 
 # You can also get a 'slice' of the string like this:
 
-print(note[0:3])
+#print(note[0:3])
 # This gets the portion of the string between index 0 and 3: 'The'
 
 # @TASK: Complete the following exercises. You can check them as you go by
@@ -46,15 +46,16 @@ print("")
 print("Function: get_first_letter")
 
 def get_first_letter(the_str):
+  return the_str[0]
   # Return the first letter of the string
-  pass
 
-check_that_these_are_equal(
+
+  check_that_these_are_equal(
   get_first_letter("The king granted them"),
-  "T"
-)
+  "T")
 
-check_that_these_are_equal(
+
+  check_that_these_are_equal(     
   get_first_letter("Five years later"),
   "F"
 )
@@ -65,15 +66,15 @@ print("")
 print("Function: get_last_letter")
 
 def get_last_letter(the_str):
-  # Return the last letter of the string
-  pass
+  return the_str[-1]  # Return the last letter of the string
 
-check_that_these_are_equal(
+
+  check_that_these_are_equal(
   get_last_letter("The king granted them"),
   "m"
 )
 
-check_that_these_are_equal(
+  check_that_these_are_equal(
   get_last_letter("Five years later"),
   "r"
 )
@@ -85,7 +86,7 @@ print("Function: get_nth_letter")
 
 def get_nth_letter(the_str, n):
   # Return the letter of the string at the specified index
-  pass
+  return the_str[n]
 
 check_that_these_are_equal(
   get_nth_letter("The king granted them", 4),
@@ -104,7 +105,7 @@ print("Function: get_letters_between_four_and_eight")
 
 def get_letters_between_four_and_eight(the_str):
   # Return the section of the string between indexes four and eight
-  pass
+  return the_str[4:8]
 
 check_that_these_are_equal(
   get_letters_between_four_and_eight("The king granted them"),
